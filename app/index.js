@@ -9,7 +9,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: false }));
 
 // Connect to MongoDB
-mongoose.connect('',
+mongoose.connect('mongodb://mongo:27017/app',
   // mongo config when working with docker
   { useNewUrlParser: true }
 )
