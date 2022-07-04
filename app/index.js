@@ -37,7 +37,7 @@ app.post('/item/add', (req, res) => {
   newItem.save().then(item => res.redirect('/'));
 });
 
-const port = ''
+const port = 3000
 
 // which port is the node server listening on?
 
